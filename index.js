@@ -41,7 +41,7 @@ const accessData = async (nextEndpoint) => {
       //const averageCubicWeight = cubicWeight/cubicWeightLength*250
 
       const sum = cubicWeight.reduce((total, amount) => total + amount); 
-      const averageCubicWeight = sum/cubicWeight.length;
+      const averageCubicWeight = sum/cubicWeight.length*250;
       console.log(averageCubicWeight)
 
     } else {
